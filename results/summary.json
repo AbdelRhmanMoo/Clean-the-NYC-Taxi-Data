@@ -1,0 +1,36 @@
+{
+  "total_rows": 1369765,
+  "rows_before": 1369765,
+  "rows_after": 1337738,
+  "rows_removed": 32027,
+  "removed": {
+    "pickup_missing_or_unparseable": 0,
+    "pickup_outside_january_2021": 24,
+    "dropoff_before_pickup": 5642,
+    "fare_amount<=0": 7394,
+    "trip_distance<=0": 18967,
+    "duplicate_rows": 0
+  },
+  "flags": {
+    "passenger_count_zero_flag": 26246,
+    "passenger_count_missing_flag": 91389,
+    "vendor_missing_flag": 91389
+  },
+  "problems": {
+    "pickup_missing_or_unparseable": 0,
+    "pickup_outside_january_2021": 24,
+    "fare_amount_missing": 0,
+    "fare_amount_zero": 642,
+    "fare_amount_negative": 6769,
+    "trip_distance_missing": 0,
+    "trip_distance_zero": 19952,
+    "trip_distance_negative": 0,
+    "passenger_count_zero": 26726,
+    "passenger_count_missing": 98352,
+    "duplicate_rows (2nd+ copies)": 0,
+    "dropoff_before_pickup": 5642,
+    "VendorID_missing": 98352,
+    "ROWS with >=1 drop-rule problem (distinct)": 32027
+  },
+  "tests_passed": 26
+}
